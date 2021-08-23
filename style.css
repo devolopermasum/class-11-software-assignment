@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.full-website{
+    width: 1024px;
+    margin: auto;
+}
+/* ==========Header Menu CSS Start========== */
+.header-section{
+    background-color: #34495e;
+    padding: 100px 0px;
+}
+.header-section ul{
+    text-align: center;
+}
+.header-section ul li{
+    display: inline-block;
+}
+.header-section ul li a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #e67e22;
+	padding: 15px 20px;
+	margin-left: 20px;
+	color: #34495e;
+}
+/* ==========Header Menu CSS End========== */
+/* ==========Header line Menu CSS Start========== */
+.header-line1 {
+	width: 7px;
+	height: 25px;
+	background-color: white;
+	position: relative;
+	left: 465px;
+	position: relative;
+}
+.header-line2 {
+	width: 7px;
+	height: 25px;
+	background-color: white;
+	position: relative;
+	left: 567px;
+	bottom: 25px;
+	position: relative;
+}
+.header-line3 {
+	width: 7px;
+	height: 25px;
+	background-color: white;
+	position: relative;
+	left: 667px;
+	bottom: 50px;
+    position: relative;
+}
+.header-line4 {
+	width: 7px;
+	height: 25px;
+	background-color: white;
+	position: relative;
+	left: 363px;
+	bottom: 75px;
+	position: relative;
+}
+.header-section .header-line1 h1 {
+    color:#e67e22 ;
+	position: absolute;
+	top: 27px;
+	left: -2px;
+}
+.header-section .header-line2 h1 {
+    color:#e67e22 ;
+	position: absolute;
+	top: 27px;
+	left: -2px;
+}
+.header-section .header-line3 h1 {
+    color:#e67e22 ;
+	position: absolute;
+	top: 27px;
+	left: -2px;
+}
+.header-section .header-line4 h1 {
+    color:#e67e22 ;
+	position: absolute;
+	top: 27px;
+	left: -2px;
+}
+/* ==========Header line Menu CSS End========== */
+/* ==========Service Section CSS Start========== */
+.service-section {
+	background-color: #e1e1e1;
+	padding: 50px 0px 50px 0px;
+}
+.service-section .service-header {
+	color: #3c5e3c;
+	font-size: 80px;
+	text-align: center;
+	border-bottom: 5px dashed #3c5e3c;
+}
+.service-section .service-content {
+	display: inline-block;
+	text-align: center;
+	background-color: #eee7e7;
+	padding: 10px;
+	box-shadow: 0px 0px 10px 2px black;
+	border-radius: 20px;
+	width: 25%;
+	height: 270px;
+}
+.service-section .one {
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
+.service-section .two {
+	position: relative;
+	left: 95px;
+}
+.service-section .three {
+	position: relative;
+	left: 165px;
+}
+.service-section .service-content i {
+	color: #3c5e3c;
+	font-size: 60px;
+	margin-top: 20px;
+}
+.service-section .service-content h1 {
+	color: #852b2b;
+	margin: 5px 0px 10px 0px;
+}
+.service-section .service-content:hover{
+	background-color:#3497db;
+	cursor: pointer;
+	transition: .3s;
+}
+/* ==========Service Section CSS End========== */
+/* ==========Portfolio Section CSS Start========== */
+.container {
+	width: 750px;
+	height: auto;
+	margin: auto;
+}
+.portfolio-section{
+	background-color: #9b59b6;
+}
+.portfolio-section .portfolio{
+	height: 100px;
+	width: 100px;
+	background-color: #34495e;
+	border-radius: 50%;
+	border: 4px dotted #e67e22;
+	display: inline-block;
+}
+.portfolio-section .one {
+	position: relative;
+	top: 70px;
+	left: 90px;
+}
+.portfolio-section .two {
+	position: relative;
+	top: 10px;
+	left: 120px;
+}
+.portfolio-section .three {
+	position: relative;
+	top: 10px;
+	left: 225px;
+}
+.portfolio-section .four {
+	position: relative;
+	top: 90px;
+	left: 250px;
+}
+.portfolio-section .image {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 5px solid #e67e22;
+	display: inline-block;
+	position: relative;
+	left: -110px;
+	top: 100px;
+}
+.portfolio-section .image img{
+	max-width: 100%;
+	border-radius:50% ;
+}
+.hover-image {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	color: white;
+	background-color: rgba(140, 255, 0, 0.5);
+	visibility: hidden;
+	opacity: 0;
+
+	transition: .4s;
+}
+.hover-image h1 {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 60px;
+	color: black;
+}
+.portfolio-section .image:hover .hover-image{
+	opacity: 1;
+	visibility:visible;
+}
+.form-section {
+	position: relative;
+	left: 295px;
+	padding: 50px 0px 110px 0px;
+	top: 55px;
+}
+.name {
+	display: block;
+	border-radius: 20px;
+	font-size: 15px;
+	padding: 5px 0px 5px 20px;
+	margin-top: 5px;
+	width: 200px;
+}
+.email{
+ 	display:block;
+	border-radius: 25px;
+	font-size: 15px;
+	padding: 5px 0px 5px 20px;
+	margin-top: 10px;
+	width: 200px;
+}
+.login {
+	border: 2px solid rgba(0, 0, 0, 0.444);
+	border-radius: 30px;
+	padding: 10px 20px 10px 20px;
+	margin-top: 15px;
+	background-color: #9b59b6;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+	left: 60px;
+}
+.login:hover{
+	color: #9b59b6;
+	background-color: white;
+}
+/* ==========Portfolio Section CSS End========== */
+/* ==========Footer Section CSS Start========== */
+.footer-section {
+	background-color: #2c3e50;
+	padding: 5px 0px 20px 0px;
+	text-align: center;
+	color: white;
+	font-size: 9px;
+}
+/* ==========Footer Section CSS End============= */
